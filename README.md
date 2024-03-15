@@ -42,7 +42,7 @@ Damit wäre das Script komplett konfiguriert und wenn man nun zwischen den confi
 	./switch-to-work.sh
 	./switch-to-work.sh
 
-Optional kann man noch einen Alias erstellen, QUALITY OF LIFE change:
+__Optional__ kann man noch einen Alias erstellen, QUALITY OF LIFE change:
 
 	alias switch_to_work=“~/switch_to_work.sh“
 	alias switch_to_private=“~/switch_to_private.sh“
