@@ -94,10 +94,9 @@ Here's how you can do it:
        source ~/.bashrc
        ```
        
-   - This command reloads the configuration file, making the aliases available in your current session.
+This command reloads the configuration file, making the aliases available in your current session.
    
 Now, the aliases should persist across terminal sessions, and you should be able to use `switch_to_work` and `switch_to_private` commands without any issues, even after restarting the terminal.
-
 
 
 
