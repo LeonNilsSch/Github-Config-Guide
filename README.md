@@ -53,14 +53,14 @@ Here's how you can do it:
        ```
        code ~/.zshrc
        ```
-       - For bash:
+     - For bash:
        ```
        code ~/.bashrc
        ```
 
 **Add alias definitions:**
    - Inside the file, add the alias definitions for `switch_to_work` and `switch_to_private` at the end:
-     ```bash
+     ```
      alias switch_to_work="/Users/blank/switch_to_work.sh"
      alias switch_to_private="/Users/blank/switch_to_private.sh"
      ```
@@ -75,7 +75,7 @@ Here's how you can do it:
        ```
        source ~/.zshrc
        ```
-       - For bash:
+     - For bash:
        ```
        source ~/.bashrc
        ```
