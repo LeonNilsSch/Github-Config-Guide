@@ -44,8 +44,41 @@ Damit wäre das Script komplett konfiguriert und wenn man nun zwischen den confi
 
 __Optional__ kann man noch einen Alias erstellen, QUALITY OF LIFE change:
 
-	alias switch_to_work=“~/switch_to_work.sh“
-	alias switch_to_private=“~/switch_to_private.sh“
+Here's how you can do it:
+
+1. **Open your shell configuration file:**
+   - Depending on which shell you're using, open the appropriate configuration file. For example, if you're using Bash, you'll typically edit `~/.bashrc`. If you're using Zsh, you'd edit `~/.zshrc`.
+   - You can open the file in a text editor like VSCode:
+     - For Zsh:
+       ```
+       code ~/.zshrc
+       ```
+
+2. **Add alias definitions:**
+   - Inside the file, add the alias definitions for `switch_to_work` and `switch_to_private` at the end:
+     ```bash
+     alias switch_to_work="/Users/blank/switch_to_work.sh"
+     alias switch_to_private="/Users/blank/switch_to_private.sh"
+     ```
+   - Replace `/User/blank/` with the actual path to your scripts.
+
+3. **Save and exit the editor:**
+   - In nano, you can save the changes by pressing `Ctrl + O` (to write out) and then `Enter`, and then exit VSCode by pressing `Ctrl + X`.
+
+4. **Apply changes:**
+   - After saving the file, you need to apply the changes to your current shell session. You can do this by running:
+     - For Zsh:
+       ```
+       source ~/.zshrc
+       ```
+   - This command reloads the configuration file, making the aliases available in your current session.
+   
+Now, the aliases should persist across terminal sessions, and you should be able to use `switch_to_work` and `switch_to_private` commands without any issues, even after restarting the terminal.
+
+
+
+
+
 
 
 ## THATS IT HAVE FUN WITH IT !!!!!
