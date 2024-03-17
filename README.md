@@ -1,12 +1,12 @@
 ## MY README.File FOR MY GIT CONFIGURATION
 
-Navigiere in dein Home Directory:
+Navigate to your Home directory:
 
 	cd ~
 
 
 
-Erstelle 2 Shell Scripts, eine für Work und eine für Private Repos:
+Create 2 shell scripts, one for Work and one for Private Repos:
 
 
 	touch switch_to_work.sh
@@ -18,31 +18,31 @@ Editiere diese Scripts indem du sie in einem Code Editor deiner Wahl öffnest:
 	code switch_to_work.sh
 
 
-Füge folgenden Code hinzu und füge in den Klammern deine Daten hinzu:
+Edit these scripts by opening them in a code editor of your choice:
 
 	git config —global user.name “Your Work Name“
 	git config —global user.email “Your Work Email“
 
 
-Save und schliesse die File und mach das selbe mit der Private Config:
+Save and close the file and do the same with the Private Config:
 
 	code switch_to_work.sh
 	git config —global user.name “Your Private Name“
 	git config —global user.email “Your Private Email“
 
 
-Nun muss man die scripts executable machen damit man sie run kann:
+Now you have to make the scripts executable so that you can run them:
 
 	chmod +x switch_to_work.sh
 	chmod +x switch_to_private.sh
 
 
-Damit wäre das Script komplett konfiguriert und wenn man nun zwischen den configs switchen möchtest run:
+Now the script is completely configured and if you want to switch between the configs run:
 
 	./switch-to-work.sh
 	./switch-to-work.sh
 
-__Optional__ kann man noch einen Alias erstellen, QUALITY OF LIFE change:
+__Optional__: you can create an alias, QUALITY OF LIFE change:
 
 Here's how you can do it:
 
