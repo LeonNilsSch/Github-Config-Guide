@@ -49,9 +49,13 @@ Here's how you can do it:
 **Open your shell configuration file:**
    - Depending on which shell you're using, open the appropriate configuration file. For example, if you're using Bash, you'll typically edit `~/.bashrc`. If you're using Zsh, you'd edit `~/.zshrc`.
    - You can open the file in a text editor like VSCode:
-     - For Zsh:
+     - For zsh:
        ```
        code ~/.zshrc
+       ```
+       - For bash:
+       ```
+       code ~/.bashrc
        ```
 
 **Add alias definitions:**
@@ -71,12 +75,13 @@ Here's how you can do it:
        ```
        source ~/.zshrc
        ```
+       - For bash:
+       ```
+       source ~/.bashrc
+       ```
    - This command reloads the configuration file, making the aliases available in your current session.
    
 Now, the aliases should persist across terminal sessions, and you should be able to use `switch_to_work` and `switch_to_private` commands without any issues, even after restarting the terminal.
-
-
-
 
 
 
