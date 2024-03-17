@@ -2,16 +2,16 @@
 
 **Navigate to your Home directory:**
 
-	```
+	
 	cd ~
-	```
+	
 
 **Create 2 shell scripts, one for Work and one for Private Repos:** 
 
-	```
+
 	touch switch_to_work.sh
 	touch switch_to_private.sh
-	```
+
 
 **Editiere diese Scripts indem du sie in einem Code Editor deiner Wahl öffnest:**
 
@@ -20,32 +20,32 @@
 
 **Edit these scripts by opening them in a code editor of your choice:**
 	
-	```
+	
 	git config —global user.name “Your Work Name“
 	git config —global user.email “Your Work Email“
-	```
+	
 
 **Save and close the file and do the same with the Private Config:**
 
-	```
+	
 	code switch_to_work.sh
 	git config —global user.name “Your Private Name“
 	git config —global user.email “Your Private Email“
-	```
+	
 
 **Now you have to make the scripts executable so that you can run them:**
 	
- 	```
+ 	
 	chmod +x switch_to_work.sh
 	chmod +x switch_to_private.sh
-	```
+	
 
 **Now the script is completely configured and if you want to switch between the configs run:**
 	
- 	```
+ 	
 	./switch-to-work.sh
 	./switch-to-work.sh
-	```
+	
  
 __Optional__: you can create an alias, QUALITY OF LIFE change:
 
